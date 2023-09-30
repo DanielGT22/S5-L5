@@ -3,11 +3,12 @@ header {
   background-color: #ffc017;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px;
   border-bottom: solid black 1px;
   position: sticky;
   top: 0px;
+  z-index: 3;
 }
 .header1 {
   background-color: white;
@@ -16,6 +17,7 @@ header {
 .right {
   display: flex;
   align-items: center;
+  margin-right: 15%;
 }
 .right ul {
   display: flex;
@@ -35,6 +37,7 @@ header {
 header h2 {
   font-size: 2em;
   font-weight: 700;
+  padding-left: 3.4em;
 }
 /*  */
 /*  */
@@ -44,6 +47,7 @@ main {
   padding: 6em;
   border-bottom: 1px black solid;
   padding-bottom: 5em;
+  display: flex;
 }
 main h1 {
   font-size: 6em;
@@ -143,7 +147,7 @@ main button {
 }
 
 .discover {
-  width: 40%;
+  width: 35%;
 }
 .channel {
   position: sticky;
@@ -177,13 +181,15 @@ p a {
 }
 .more a {
   text-decoration: none;
-  color: green;
-  margin: 1em 0em 1em 0.5em;
+  color: #1a8917;
+  margin: 1em 0em 10em 0.5em;
+  font-size: 0.75em;
 }
 .channel hr {
   width: 95%;
   color: aliceblue;
   opacity: 0.4;
+  margin-top: 2em;
 }
 .end ul {
   width: 80%;
@@ -243,4 +249,34 @@ p {
 .pressMe a {
   color: white;
   text-decoration: none;
+}
+main {
+  justify-content: space-between;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.letters {
+  width: 30.2%;
+  z-index: 0;
+}
+.mains {
+  padding-left: 2em;
+}
+.mains h1 {
+  padding-top: 1em;
+}
+g {
+  opacity: 1;
+  display: block;
+}
+.secondMain {
+  margin: 2% 10%;
+}
+.mainTrending {
+  margin: 0 5%;
+}
+.end li {
+  font-size: 15px;
+  padding: 1 %;
 }
